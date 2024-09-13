@@ -3,7 +3,7 @@ import bodyParser from 'body-parser';
 import dotenv from 'dotenv';
 import { GoogleGenerativeAI } from '@google/generative-ai';
 import mongoose from 'mongoose';
-import Model from 'file:///D:/SIH-Chatbot/server/caseModel.js';
+import Model from 'file:///.../caseModel.js'; //Replace with absolute path to caseModel.js (ES6 does not allow relative paths)
 import cors from 'cors';
 
 dotenv.config();
